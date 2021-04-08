@@ -21,7 +21,7 @@ module.exports = {
 
   getDB: function(){
     let client = module.exports.getClient();
-    let db = client.db(dbName);
+    let db = client.db(dbName); 
     return db; 
   },
   createObjectId(id){
